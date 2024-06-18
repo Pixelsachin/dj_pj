@@ -1,0 +1,21 @@
+/* Reset some default browser styles for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  background-color: #161616;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* h1 Styles */
+h1 {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  padding: 10px;  /* Added some padding for better visual spacing */
+}
